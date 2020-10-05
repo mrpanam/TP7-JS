@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>TP7-JS-generateur de citation</title>
-    <script src="js/index.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </head>
-<body>
+<body class="container">
 <h1>Eric Paris-Getting there</h1>
-<img src="images/swordsman.jpg" alt="The fight has begun" width="400" height="300">
+<img id="image" src="images/swordsman.jpg" alt="The fight has begun" width="400" height="300">
+<p id="demo"></p>
 <p>
     Day 1 alone at home , back to improve my skills in Java, Python and Front dev.
     So i try to not waste time so much as before as i was spending so much time playing games.
     I'm gonna try do useful stuff instead
 
 </p>
+<button type="button" class="btn btn-primary" onclick="affichedate()">Afficher date</button>
+<button type="button" class="btn btn-secondary" onclick="repimage()">replace image</button>
+<script src="js/index.js"></script>
 </body>
 </html>
