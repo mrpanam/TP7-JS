@@ -15,8 +15,8 @@ function getjson() {
             citations = data;
             // affichage de citations
             console.log(citations);
-            $.each(data, function (key, value) {
-
+            $.each(citations, function (key, value) {
+                document.getElementById("demo").innerHTML += key + ":" + value.nom + "<br>";
 
             });
 
